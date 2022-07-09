@@ -1,0 +1,32 @@
+body{
+    /* background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=grHxvRso&id=5BF91A391C8196F5D23FE725F9E49CB917E536F6&thid=OIP.grHxvRsojsc3LAtEPxDJLAHaE8&mediaurl=https%3a%2f%2ff.hubspotusercontent20.net%2fhubfs%2f6880128%2fAdobeStock_178217260.jpeg&exph=786&expw=1178&q=payment&simid=608021460860819814&FORM=IRPRST&ck=CD042ECA8CA2920CD8B78F3021865ECC&selectedIndex=0'); */
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    /* background-color: black; */
+    
+}
+.box
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-color: red;
+    width:200px;
+    height:200px;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.box h2{
+    text-align: center;
+    color:white;
+
+}
+.box a{
+    background-color: black;
+    color: white;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* text-decoration: none; */
+}
